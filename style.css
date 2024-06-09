@@ -344,13 +344,17 @@ li{
         padding: 10px 50px;
     }
     .logo, .nav {
-        font-size: 1.2em;
+        font-size: 13px;
     }
     .logo{
-        padding-right: 1em;
+        padding-right: 13px;
     }
     .nav{
-        padding-left: 1em;
+        padding-left: 13px;
+    }
+    .nav:hover{
+    color: #0022ff;
+    font-size: 13px;
     }
     .first-section {
         font-size: 1.2em;
