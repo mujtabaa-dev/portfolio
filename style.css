@@ -50,7 +50,7 @@ section{
 }
 .nav:hover{
     color: #0022ff;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 .first-section{
     display: flex;
@@ -352,9 +352,6 @@ li{
     .nav{
         padding-left: 1em;
     }
-    .nav:hover{
-        padding-left: 1.3em;
-    }
     .first-section {
         font-size: 1.2em;
         padding: 10px 20px;
@@ -436,7 +433,10 @@ li{
         width: 100%;
         justify-content: center;
     }
-    .footer{
-        font-size: 0.5em;
+    .footer-title{
+        font-size: 7px;
+    }
+    .footer-icons a{
+        font-size: 6px;
     }
 }
