@@ -38,7 +38,12 @@ section{
 }
 .logo:hover{
     color: rgb(177, 109, 0);
-    font-size: 1.6em;
+    font-size: 1.5em;
+}
+.main-logo{
+    width: 1280px;
+    height: auto;
+    float:left;
 }
 .nav{
     text-decoration: none;
@@ -50,7 +55,7 @@ section{
 }
 .nav:hover{
     color: #0022ff;
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 .first-section{
     display: flex;
@@ -345,17 +350,21 @@ li{
         padding: 10px 50px;
     }
     .logo, .nav {
-        font-size: 13px;
+        font-size: 1.2em;
     }
     .logo{
-        padding-right: 13px;
+        padding-right: 1em;
+    }
+    .main-logo{
+        position: relative;
+        right: 21.7em;
+        top: 5em;
     }
     .nav{
-        padding-left: 13px;
+        padding-left: 1em;
     }
     .nav:hover{
-    color: #0022ff;
-    font-size: 13px;
+        padding-left: 1.3em;
     }
     .first-section {
         font-size: 1.2em;
@@ -380,7 +389,11 @@ li{
         padding: 10px 20px;
     }
     .second-section h1, .third-section h1, .third-section h2, .fourth-section h1, .technologies-div h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
+    }
+    .technologies-div a img{
+        width: 50px;
+        height: auto;
     }
     .m-offer h1 {
         font-size: 30px;
@@ -421,6 +434,19 @@ li{
     .fourth-section h1{
         border-bottom: 2px solid #000000;
     }
+    .footer {
+        background-color: #000000;
+        justify-content: space-between;
+        display: flex;
+        padding: 13px;
+        color: #ffffff;
+    }
+    .footer-title{
+        font-size: 7px;
+    }
+    .footer-icons a{
+        font-size: 7px;
+    }
     .icons a img{
      width: 40px;
      height: 40px;
@@ -437,11 +463,5 @@ li{
     .contact-left button {
         width: 100%;
         justify-content: center;
-    }
-    .footer-title{
-        font-size: 7px;
-    }
-    .footer-icons a{
-        font-size: 5px;
     }
 }
