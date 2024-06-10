@@ -202,6 +202,7 @@ height: 40px;
     font-weight: 300;
     font-size: 2em;
     text-align: left;
+    text-transform: uppercase;
 }
 .technologies-div a img{
     width: 90px;
