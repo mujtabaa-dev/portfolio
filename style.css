@@ -44,7 +44,7 @@ section {
 
 .logo:hover {
     color: rgb(0, 60, 255);
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 .nav {
@@ -60,7 +60,7 @@ section {
 
 .nav:hover {
     color: rgb(0, 102, 255);
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 
 .first-section {
@@ -426,7 +426,6 @@ li {
     cursor: pointer;
     padding: 15px 30px;
     transition: 0.2s ease;
-    ;
 }
 
 .contact-left button img {
@@ -556,7 +555,7 @@ li {
     }
     .wel p{
         font-size: 1em;
-        min-width: 380px;
+        min-width: 300px;
         padding-bottom: 80px;
     }
     .wel span{
@@ -871,6 +870,9 @@ li {
 
     .first-txt, .middle-txt, .last-txt {
         font-size: 0.8em;
+    }
+    .first-section{
+        padding-top: 0px;
     }
 
     .programming-courses {
