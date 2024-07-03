@@ -86,17 +86,18 @@ section {
     padding-top: 50px;
 }
 
-#tailwind-ico{
-    width:100px; 
-    height: 70px;
-}
-
 .wel p{
     font-size: 1.3em;
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
     font-weight: 600;
     padding-top: 50px;
+}
+
+
+#tailwind-ico{
+    width:100px; 
+    height: 70px;
 }
 
 .main-socials{
@@ -801,30 +802,48 @@ li {
         padding-bottom: 3em;
         text-align: center;
     }
+
     .wel h1{
-        padding-top: 70px;
-        font-size: 1.7em;
+        font-size: 1.8em;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        font-weight: 900;
+        padding-top: 125px;
     }
     .wel h3{
-        font-size: 1.5em;
-        padding-top: 80px;
+        font-size: 3em;
+        color: rgb(255, 255, 255);
+        letter-spacing: 1px;
+        font-weight: 600;
+        padding-top: 50px;
     }
+    
     .wel p{
-        font-size: 0.9em;
-        padding-top: 110px;
+        font-size: 0.8em;
+        letter-spacing: 1px;
+        font-weight: 500;
+        padding-top: 50px;
     }
+    
     .main-socials{
-        padding-top: 3em;
+        padding-top: 5em;
     }
-    .main-socials{
-        font-size: 15px;
+    
+    .wel span{
+        color: #ffffff;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 0.4em;
+        border-radius: 5px;
+        padding: 3px 10px;
     }
+    
     .main-socials a{
-        padding: 8px 8px 8px 8px;
-        margin: 4px;
-    }
-    .main-socials a i{
-        font-size: 20px;
+        color: #ddecff;
+        font-size: 2em;
+        padding: 11px;
+        background-color: #001f63;
+        border-radius: 5px;
+        margin: 10px;
     }
 
     .second-section {
@@ -939,11 +958,11 @@ li {
     }
 
     .footer-title {
-        font-size: 12px;
+        font-size: 7px;
     }
 
     .footer-icons a {
-        font-size: 12px;
+        font-size: 7px;
     }
 
     .icons a img {
