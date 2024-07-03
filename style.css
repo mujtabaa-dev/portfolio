@@ -802,11 +802,16 @@ li {
         text-align: center;
     }
     .wel h1{
-        padding-top: 5em;
-        font-size: 2em;
+        padding-top: 70px;
+        font-size: 1.7em;
     }
     .wel h3{
         font-size: 1.5em;
+        padding-top: 80px;
+    }
+    .wel p{
+        font-size: 0.9em;
+        padding-top: 110px;
     }
     .main-socials{
         padding-top: 3em;
